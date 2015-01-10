@@ -1,0 +1,83 @@
+/* CSS Document */
+* { margin:0; padding:0;}
+body { font:11px Verdana, Arial, Helvetica, sans-serif; color:#666666;}
+p { font:11px tahoma; color:#666666; padding:0 0 5px 0; text-align:justify;}
+img { border:none;}
+a { text-decoration:none;}
+a:hover { text-decoration:underline;}
+.clearDiv { clear:both;}
+.more { text-align:right; width:100%;}
+.more a { font:10px Verdana, Arial, Helvetica, sans-serif; color:#F36B2D; font-weight:bold; }
+
+#header { width:960px; margin:0 auto;}
+#header .logo { float:left; width:500px; padding:30px 0 5px 0;}
+#header img {float:left;}
+#header .logo h2 { padding:15px 0 0 5px; font:30px "Lucida Sans Unicode" ; font-weight:bold; color:#38592A; float:left;}
+
+#menu { width:960px; margin:0 auto; height:37px; background:url(../images/menuBg.gif) repeat-x 0 0;}
+#menu ul{ list-style:none; background:url(../images/menuRightCurve.gif) no-repeat right 0; width:100%; height:37px;}
+#menu ul li { float:left; display:block;}
+#menu ul li.leftCurve { background:url(../images/menu_leftCurve.gif) no-repeat 0 0;}
+#menu ul li.leftCurve a {}
+#menu ul li.leftCurve a:hover { background:url(../images/menuHoverLeftCurve.gif) no-repeat 0 0;}
+#menu ul li a { float:left; display:block; font:13px Arial, Helvetica, sans-serif; font-weight:bold; color:#fff; padding:10px 0 0 0; height:27px; text-decoration:none; cursor:pointer;}
+#menu ul li a:hover {color:#fff; background:url(../images/menuHoverBg.gif) repeat-x 0 0;}
+#menu ul li a b{ float:left; display:block; border-right:1px solid #fff; padding:0 25px; }
+
+.active a{color:#fff; background:url(../images/menuHoverBg.gif) repeat-x 0 0;}
+.leftCurveactive a{ background:url(../images/menuHoverLeftCurve.gif) no-repeat 0 0;}
+
+#page { width:970px; margin:0 auto; background:url(../images/curvedBoxBG.gif) repeat-y 0 0;}
+#page .bannerContainer { background:url(../images/curvedBoxTopCurve.gif) no-repeat 0 0; padding:15px 0 0 12px;}
+#page .contentContainer { background:url(../images/curvedBoxBottomCurve.gif) no-repeat 0 bottom; padding:10px 10px 20px 10px;}
+#page .contentContainer .sidebar { float:left; width:230px;}
+#page .contentContainer .contentPart { float:right; width:710px;}
+.welcomeContent{ float:left; width:470px; padding:5px 0 0 0;}
+.welcomeContent h2{ background:url(../images/gradientLine_big.gif) no-repeat 0 24px; padding:0 0 10px 0; color:#5F5F5F; height:30px; font:20px Arial, Helvetica, sans-serif; font-weight:bold;}
+.welcomeContent h2.small{background:url(../images/gradientLine_big.gif) no-repeat -160px 24px; font-size:18px;}
+.welcomeContent p{ padding:0 0 15px 0; text-align:justify;}
+
+.mainheadingContent{ float:left; width:700px; padding:5px 0 0 0;}
+.mainheadingContent h2{ background:url(../images/gradientLine_big.gif) no-repeat 0 24px; padding:0 0 10px 0; color:#5F5F5F; height:30px; font:20px Arial, Helvetica, sans-serif; font-weight:bold;}
+.mainheadingContent h2.small{background:url(../images/gradientLine_big.gif) no-repeat -160px 24px; font-size:18px;}
+.mainheadingContent p{ padding:0 0 15px 0; text-align:justify;}
+
+.mainheadingContent ul{ padding:0 0 15px 30px; text-align:justify;}
+.mainheadingContent ul li{ list-style-image:url('..images/greenArrow.html');padding:3px;}
+.productsList { float:right; width:230px;}
+#smallCBox { width:222px; background:url(../images/smallCBoxBG.gif) repeat-y 0 0;}
+#smallCBox h3 { background:url(../images/smallCBoxHeader.gif) no-repeat 0 0; padding:15px 0 0 25px; color:#fff; height:20px; font:14px Verdana, Arial, Helvetica, sans-serif; font-weight:bold;}
+#smallCBox .gradientBgCont { background:url(../images/smallCBoxBottom.gif) no-repeat 0 bottom; padding:10px 10px 5px 15px;}
+#smallCBox .whiteBgCont { background:url(../images/smallCBoxWhiteBottom.gif) no-repeat 0 bottom; padding:15px 10px 15px 10px; margin-bottom:10px;}
+#smallCBox .news {}
+#smallCBox .news ul { list-style:none;}
+#smallCBox .news ul li { display:block; padding-bottom:5px;}
+#smallCBox .news ul li h3 {background:url(../images/greenArrow.gif) no-repeat 0 0; padding:0 0 0 15px; color:#38592A; height:20px; font:11px Verdana, Arial, Helvetica, sans-serif; font-weight:bold;}
+#smallCBox .news ul li p {}
+.sublist { padding:0 0 0 10px;}
+.sublist ul { list-style:none;}
+.sublist ul li { background:url(../images/greenCircle.gif) no-repeat 0 3px; display:block; padding:0 0 0 10px; margin:0;}
+.ourProductsICont { padding:0;}
+.ourProductsICont ul { list-style:none;}
+.ourProductsICont ul li { float:left; display:block; padding:0 5px 10px 0; margin:0; width:150px;}
+.ourProductsICont ul li img{}
+.ourProductsICont ul li p{text-align:center; padding:5px 0 0 0; color:#38592A; font-size:12px;} 
+.productsLi { padding:0 0 0 0px;}
+.productsLi ul { list-style:none;}
+.productsList ul li { background:url(../images/greendotsarrow.gif) no-repeat 0 3px; display:block; margin:0; padding:0 0 10px 20px;}
+.productsLi ul li a{ font:11px Verdana, Arial, Helvetica, sans-serif; font-weight:bold; color:#38592A;}
+#sidebarmenu { width:222px; background:url(../images/smallCBoxBG.gif) repeat-y 0 0;}
+#sidebarmenu h3 { background:url(../images/smallCBoxHeader.gif) no-repeat 0 0; padding:15px 0 0 25px; color:#fff; height:20px; font:14px Verdana, Arial, Helvetica, sans-serif; font-weight:bold;}
+
+#sidebarmenu ul li { background:url(../images/greendotsarrow.gif) no-repeat 0 3px; display:block; margin:0; padding:0 0 10px 20px;}
+#sidebarmenu ul li a{ font:11px Verdana, Arial, Helvetica, sans-serif; font-weight:bold; color:#38592A;}
+
+.address { background:url(../images/gradientLine_sma.gif) no-repeat 0 15px;}
+.address h4 { padding-left:10px;background:url(../images/greenArrow.gif) no-repeat 0 0; padding:0 0 0 15px; color:#38592A; height:20px; font:11px Verdana, Arial, Helvetica, sans-serif; font-weight:bold;}
+.address p { font:11px Verdana, Arial, Helvetica, sans-serif; font-weight:bold;}
+
+#footer{ border-top:6px solid #ACBB48; width:960px; margin:0 auto; padding:10px 0;}
+#footer p {color:#333333; font:11px Verdana, Arial, Helvetica, sans-serif;}
+#footer a {color:#333333; font:11px Verdana, Arial, Helvetica, sans-serif;}
+#footer .footerLinks { float:left; width:600px;}
+#footer .designerLink { float:right; width:180px;}
